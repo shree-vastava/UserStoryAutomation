@@ -20,13 +20,14 @@ st.write("\n\n")
 
 st.markdown("""
 ## User Story Generator
-Upload a PDF document or provide a Google Doc URL containing your product requirements, and let our AI-powered tool automatically generate detailed user stories with acceptance criteria.
+Upload a PDF document or provide a Google Doc URL containing your product requirements, and let our AI-powered tool automatically generate detailed user stories with acceptance criteria and story points. Relax, the tool will add the stories to your Jira or Notion board.
 
 - Quickly convert requirements into developer-ready user stories.
 - Maintain clarity and consistency across all stories.
+- Get your stories added to your Notion/Jira boards
 - Save time and streamline your product development process.
 
-Use the uploader or text input below to get started!
+
 """)
 
 # File uploader
