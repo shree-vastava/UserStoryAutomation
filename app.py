@@ -14,7 +14,7 @@ div.stButton > button:last-child {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("💼 Storyteller Tool")
+st.title("💼 Storyteller For Your Product")
 
 st.write("\n\n")
 
