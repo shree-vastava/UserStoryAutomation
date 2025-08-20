@@ -49,13 +49,12 @@ if st.button("Generate stories from file"):
         
         uploaded_file = None
         
-st.write("\n\n")   # adds a blank line
+
 st.markdown("""
 <div style="text-align: center; font-size: 24px; font-weight: bold; margin: 20px 0;">
 OR
 </div>
 """, unsafe_allow_html=True)
-st.write("\n\n")   # another blank line
 
 doc_url = st.text_input("📄 Enter your Google doc URL:")
 if st.button("Generate Stories from Google Doc"):
