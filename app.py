@@ -14,12 +14,11 @@ div.stButton > button:last-child {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("Generate User Stories")
+st.title("💼 Storyteller Tool")
 
 st.write("\n\n")
 
 st.markdown("""
-## User Story Generator
 Upload a PDF document or provide a Google Doc URL containing your product requirements, and let our AI-powered tool automatically generate detailed user stories with acceptance criteria and story points. Relax, the tool will add the stories to your Jira or Notion board.
 
 - Quickly convert requirements into developer-ready user stories.
@@ -29,7 +28,7 @@ Upload a PDF document or provide a Google Doc URL containing your product requir
 
 
 """)
-
+st.write("\n\n")
 # File uploader
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
 if st.button("Generate stories from file"):
