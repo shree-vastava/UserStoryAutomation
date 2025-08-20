@@ -16,6 +16,19 @@ div.stButton > button:last-child {
 
 st.title("Generate User Stories")
 
+st.write("\n\n")
+
+st.markdown("""
+## User Story Generator
+Upload a PDF document or provide a Google Doc URL containing your product requirements, and let our AI-powered tool automatically generate detailed user stories with acceptance criteria.
+
+- Quickly convert requirements into developer-ready user stories.
+- Maintain clarity and consistency across all stories.
+- Save time and streamline your product development process.
+
+Use the uploader or text input below to get started!
+""")
+
 # File uploader
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
 if st.button("Generate stories from file"):
